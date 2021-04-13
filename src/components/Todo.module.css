@@ -1,72 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
 
 .display-4 {
-  font-size: 3rem;
+    font-size: 3rem;
+}
+
+html {
+    background-color: #212121;
 }
 
 .root {
-  max-width: 27rem;
-  position: relative;
-  margin: 0 auto;
-  font-family: 'comfortaa';
-  height: 100vh;
+    max-width: 27rem;
+    position: relative;
+    margin: 0 auto;
+    font-family: 'comfortaa';
+    height: 100vh;
+    background-color: #212121;
+    color: #ffffff;
 }
 
 .card {
-  width: 100%;
+    width: 100%;
 }
 
 .options {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .todo-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .todo {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .far,
 .fas {
-  margin: 1rem 0.5rem;
+    margin: 1rem 0.5rem;
 }
 
 .fa-trash-alt:hover {
-  color: orangered;
+    color: orangered;
 }
 
 .fa-pencil-alt:hover {
-  color: aquamarine;
+    color: aquamarine;
 }
 
 .custom-input {
-  width: 98%;
-  font-size: 2rem;
-  border: none;
-  outline: none;
-  text-align: center;
-  font-family: 'comfortaa';
+    width: 98%;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-family: 'comfortaa';
+    background-color: #212121;
+    color: #ffffff;
 }
 
 .trash-container {
-  color: white;
-  background-color: #ff3d00;
-  display: flex;
-  align-items: center;
+    color: white;
+    background-color: #ff3d00;
+    display: flex;
+    align-items: center;
 }
 
 .fixed-top {
-  position: fixed;
-  text-align: center;
-  background-color: #ffffff;
+    position: fixed;
+    text-align: center;
+    background-color: #212121;
+    padding-bottom: 16px;
 }
 
 .todo-container {
-  padding-top: 13rem;
+    padding-top: 13rem;
 }
